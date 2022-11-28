@@ -1,0 +1,74 @@
+/* Todo list */
+.todos {
+	margin: 2rem auto;
+	width: 90%;
+	max-width: 40rem;
+}
+
+.todos div {
+	padding: 1rem;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.btn {
+	float: right;
+	border-radius: 2px;
+	background-color: white;
+	padding: 1px 6px;
+	text-align: center;
+	text-decoration: none;
+	cursor: default;
+}
+
+.todos ul {
+	list-style: none;
+	padding: 0px 1rem 1rem 1rem;
+}
+
+.todos li {
+	border: 1px solid #ccc;
+	margin: 0.5rem 0;
+}
+
+.todos ul li div {
+	padding: 10px !important;
+}
+
+.task {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.date {
+	font-size: 12px;
+	font-style: italic;
+	color: white;
+}
+
+/* Add todo */
+.input {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+}
+.input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}  
+.input input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+}
+.input input:focus {
+    outline: none;
+    border-color: #4f005f;
+}
